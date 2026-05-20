@@ -21,7 +21,7 @@ class TarefaDB(Base):
     descricao = Column(String, nullable=True)
     concluida = Column(Boolean, default=False)
 
-Base.metadata.create_create_all = Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)
 
 class TarefaCreate(BaseModel):
     titulo: str
