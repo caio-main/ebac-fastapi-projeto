@@ -83,4 +83,4 @@ def exibir_menu():
 
 # Inicia o programa
 if __name__ == "__main__":
-    exibir_menu()
+    exibir_menu() 

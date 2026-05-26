@@ -48,4 +48,4 @@ CREATE TABLE Livros (
     ano INTEGER NOT NULL,
     genero TEXT NOT NULL,
     disponivel BOOLEAN NOT NULL CHECK (disponivel IN (0, 1))
-);
+); 

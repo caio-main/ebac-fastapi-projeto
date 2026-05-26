@@ -25,4 +25,4 @@ if __name__ == "__main__":
     print("-" * 20)
 
     print(f"Dados do Gato: {meu_gato.nome}, {meu_gato.idade} anos.")
-    meu_gato.emitir_som()
+    meu_gato.emitir_som() 
